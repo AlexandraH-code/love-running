@@ -49,7 +49,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -57,7 +57,7 @@ h1 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-/* Navbar styles with dropdown toggle */ 
+/* Navbar styles with dropdown toggle */
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -69,7 +69,7 @@ nav {
     top: 100%;
 }
 
-/* Nav toggle */ 
+/* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -97,6 +97,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
